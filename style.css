@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: yellowgreen;
 }
 
 header {
@@ -25,6 +25,46 @@ header nav a {
 }
 
 
+.flex-container {
+    display: flex;
+}
+
+.left-side {
+    width: 50%;
+    height: 500px;
+    border: 1px solid red;
+}
+
+.top {
+    background-color: blueviolet;
+    height: 50%;
+
+}
+
+.bottom {
+
+    background-color: brown;
+
+    height: 50%;
+
+
+}
+
+
+.right-side {
+
+    width: 50%;
+
+    height: 500px;
+
+    border: 1px solid blue;
+    padding: 20px;
+    background-color: aqua;
+
+}
+
+
+
 /* siauresnis ekranas nei 768px */
 @media screen and (max-width:768px) {
 
@@ -40,7 +80,8 @@ header nav a {
         padding: 8px;
         margin: 0;
     }
-    header nav a:hover{
+
+    header nav a:hover {
         background-color: brown;
         color: aquamarine;
     }
@@ -49,7 +90,7 @@ header nav a {
         font-size: 24px;
         margin: 0px;
         text-align: center;
-    } 
+    }
 
     .container {
         background-color: green;
