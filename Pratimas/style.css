@@ -1,0 +1,126 @@
+@media screen and (max-width:768px) {
+    body {
+        background-color: aqua;
+    }
+
+    header {
+        background-color: white;
+        padding: 0 20px;
+        display: block;
+        text-align: center;
+
+    }
+
+    header img {
+        height: 8rem;
+    }
+
+    header h1 {
+        margin: 0px;
+        text-align: center;
+
+    }
+
+    header nav a {
+        text-decoration: none;
+        display: block;
+        padding: 8px;
+        margin: 0;
+    }
+
+    header nav a:hover {
+        background-color: brown;
+        color: aquamarine;
+    }
+
+    main {
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    main table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    main table th,
+    main table td {
+        border-bottom: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .container img {
+        height: 120px;
+    }
+    header .container nav{
+        display: flex;
+    }
+    .container nav a{
+        margin-right: 36px;
+        text-decoration: none;
+        display: block;
+        padding: 8px;
+        margin: 0;
+    }
+    .container nav a:hover {
+        background-color: gray;
+        color: aquamarine;
+    }
+
+
+    main {
+        background-color: plum;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+    }
+
+    main table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    main table th,
+    main table td {
+        border-bottom: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    footer {
+        text-align: center;
+    }
+
+}
