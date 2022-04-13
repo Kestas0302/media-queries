@@ -12,7 +12,7 @@
     }
 
     header img {
-        height: 8rem;
+        height: 100px;
     }
 
     header h1 {
@@ -60,17 +60,26 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 750px;
-        margin: 0 auto;
+    body {
+        background-color: aqua;
+        margin-bottom: 20px;
     }
 
+
     header {
-        padding: 0;
+        background-color: white;
+    }
+    .container {
+
+        width: 755px;
+
+        margin: 0;
+
     }
 
     header .container {
         display: flex;
+        width: 100%;
         justify-content: space-between;
         align-items: center;
     }
@@ -78,16 +87,19 @@
     header .container img {
         height: 120px;
     }
-    header .container nav{
+
+    header .container nav {
         display: flex;
     }
-    .container nav a{
+
+    .container nav a {
         margin-right: 36px;
         text-decoration: none;
         display: block;
         padding: 8px;
         margin: 0;
     }
+
     .container nav a:hover {
         background-color: gray;
         color: aquamarine;
